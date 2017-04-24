@@ -11,7 +11,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
         format = { "pretty", "html:target/cucumber" },
         glue = "steps",
-        features = "src/test/feature/AddARoomOrGuestHouse.feature")
+        features = "src/test/feature/Login.feature")
 
 public class CucumberRunner{
 }
